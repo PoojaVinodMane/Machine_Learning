@@ -4,19 +4,6 @@ This project aims to predict the efficiency of agricultural fields, classifying 
 
 The solution utilizes a **Random Forest Classifier** as the ensemble method to process the VBN dataset and predict field efficiency. Data preprocessing includes handling missing values and standardizing the data. The performance of the model is measured using the **F1 score** on validation data.
 
----
-
-## Table of Contents
-1. [Dataset](#dataset)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Features](#features)
-5. [Dependencies](#dependencies)
-6. [Evaluation](#evaluation)
-7. [License](#license)
-
----
-
 ## Dataset
 
 The dataset for this project is provided as part of the [Kaggle VBN 2024 FOMML Hackathon](https://www.kaggle.com/competitions/vnb-foml-2024-hackathon). 
@@ -28,4 +15,11 @@ The dataset for this project is provided as part of the [Kaggle VBN 2024 FOMML H
 ## Code 
 - The code make uses of Random forest classifier as an ensembler method for the VBN dataset.
 - Preprocessing is done by handling missing values after standardizing the data.
-- The F1 score is calculated at the end on the validation data. 
+- The F1 score is calculated at the end on the validation data.
+  
+## How to Run
+
+To evaluate the model, use the following command:
+
+```bash
+bash eval.sh name_of_file
